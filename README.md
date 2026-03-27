@@ -1,40 +1,33 @@
 # HCF Project
 
 ## Overview
-The HCF Project aims to provide a comprehensive solution for calculating the Highest Common Factor (HCF) of two or more numbers efficiently.
+This is a Node.js project designed to calculate the Highest Common Factor (HCF) of two numbers.
 
-## Features
-- Fast and efficient HCF calculation.
-- Supports multiple numbers.
-- Easy-to-use interface.
+## Installation
+To get started with this project, follow the instructions below:
 
-## Getting Started
-### Prerequisites
-- Ensure that you have [Python](https://www.python.org/) installed.
-
-### Installation
-1. Clone the repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/KazeemOluwanifemi/hcf-project.git
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd hcf-project
    ```
-
-### Usage
-1. Open your terminal.
-2. Run the application:
+2. Install the required dependencies:
    ```bash
-   python hcf_calculator.py
+   npm install
    ```
-3. Follow the prompts to enter your numbers.
+
+## Usage
+To use this project, run the following command:
+```bash
+node index.js <number1> <number2>
+```
+Replace `<number1>` and `<number2>` with the numbers for which you want to compute the HCF.
+
+Example:
+```bash
+node index.js 48 18
+```
+This will compute the HCF for 48 and 18.
 
 ## Contributing
-If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-- Thank you to everyone who has contributed to this project!
+Feel free to submit issues and pull requests to this project!
